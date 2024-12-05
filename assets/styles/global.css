@@ -1,0 +1,27 @@
+:root {
+    --color-purple-1: #8C3A87;
+    --color-purple-2: #BF54B8; 
+    --color-purple-3: #F26DE9;
+    --color-dark: #0D0D0D;
+    --color-light: #F2F2F2;
+    --secundary-color: #9A9A9C;
+    --font-titles: 'Lora', serif;
+    --main-font: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: var(--main-font);
+}
+
+:is(button, a) {
+    cursor: pointer;
+}
+
+.dark-mode {
+    background-color: var(--color-dark);
+    color: var(--color-light);
+}
+
+:is(h1, h2, h3, h4) {
+    font-family: var(--font-titles);
+}
